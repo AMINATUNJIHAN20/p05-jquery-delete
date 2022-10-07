@@ -1,0 +1,81 @@
+body {
+    background: brown;
+    background: brown;
+}
+section {
+    margin: 50px;
+}
+h1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+table {
+    width: 100%;
+}
+.table_header {
+border-bottom: 1px solid black;
+}
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+td {
+    padding: 15px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: solid 1px black;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+td:hover {
+    color : darkblue;
+}
+button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-image: linear-gradient(90deg, darkgrey, grey);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button {
+    0% {
+        background-image: linear-gradient(90deg, darkgrey, grey);
+        scale: 1;
+    }
+
+    25% {
+        background-image: linear-gradient(180deg, grey, darkgrey);
+        scale: 1.1;
+    }
+
+    50% {
+        background-image: linear-gradient(45deg, blue, darkgrey);
+        scale: 1;
+    }
+
+    75% {
+        background-image: linear-gradient(124deg, grey, darkgrey);
+        scale : 1.1;
+    }
+
+    100% {
+        background-image: linear-gradient(90deg, darkgrey, grey);
+        scale : 1;
+    }
+}
